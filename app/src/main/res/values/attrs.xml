@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColorUUU" format="reference" />
+    <declare-styleable name="CustomTextView">
+        <attr name="header" format="reference" />
+        <attr name="headerHeight" format="dimension|reference" />
+        <attr name="headerVisibleHeight" format="dimension" />
+        <attr name="exampleColor" format="reference" />
+        <attr name="exampleString" format="reference" />
+        <attr name="exampleDimension" format="reference" />
+        <attr name="exampleDrawable" format="reference" />
+
+        <attr name="age">
+            <flag name="child" value="6" />
+            <flag name="old" value="40" />
+        </attr>
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomLinearLayout">
+        <attr name="bgcolor" format="reference|color" />
+        <attr name="textSizeCustom">
+            <enum name="small" value="12" />
+            <enum name="middle" value="15" />
+            <enum name="big" value="18" />
+        </attr>
+        <attr name="textColorCustom" format="reference" />
+    </declare-styleable>
+</resources>

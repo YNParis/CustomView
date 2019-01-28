@@ -4,18 +4,19 @@
  * Date: 2019/1/23 16:06
  * Description: A custom view by overwrite ondraw method.
  */
-package com.nn.customview
+package com.nn.customview.view
 
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
+import com.nn.customview.R
 
 
 /**
  * Created by Administrator on 2019/1/23.
  */
-class CustomView @JvmOverloads constructor(
+class DrawView @JvmOverloads constructor(
         context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
 

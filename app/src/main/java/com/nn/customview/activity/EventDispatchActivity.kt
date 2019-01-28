@@ -1,9 +1,10 @@
-package com.nn.customview
+package com.nn.customview.activity
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.MotionEvent
+import com.nn.customview.R
 import kotlinx.android.synthetic.main.activity_event_dispatch.*
 
 class EventDispatchActivity : AppCompatActivity() {

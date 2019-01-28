@@ -1,8 +1,9 @@
-package com.nn.customview
+package com.nn.customview.activity
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import com.nn.customview.R
 import org.jetbrains.anko.startActivity
 
 /**
@@ -21,6 +22,10 @@ class MainActivity : AppCompatActivity() {
 
     fun toCanvasPaint(v: View) {
         startActivity<CanvasPaintActivity>()
+    }
+
+    fun toWidgetEncapsulation(v: View) {
+        startActivity<WidgetEncapsulationActivity>()
     }
 
 }
