@@ -28,4 +28,8 @@ class MainActivity : AppCompatActivity() {
         startActivity<WidgetEncapsulationActivity>()
     }
 
+    fun toWindowManager(v: View) {
+        startActivity<WindowManagerActivity>()
+    }
+
 }
