@@ -28,8 +28,16 @@ class MainActivity : AppCompatActivity() {
         startActivity<WidgetEncapsulationActivity>()
     }
 
+    fun toGesture(v: View) {
+        startActivity<GestureActivity>()
+    }
+
     fun toWindowManager(v: View) {
         startActivity<WindowManagerActivity>()
+    }
+
+    fun toAnimation(v: View) {
+        startActivity<AnimationAvtivity>()
     }
 
 }

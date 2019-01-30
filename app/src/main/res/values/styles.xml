@@ -13,10 +13,14 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:layout_marginTop">@dimen/textSizeBig</item>
-        <item name="android:textSize">@dimen/textSizeBig</item>
+        <item name="android:layout_margin">@dimen/textSizeBig</item>
         <item name="android:gravity">center</item>
         <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="imageView_custom">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
     </style>
 
 </resources>

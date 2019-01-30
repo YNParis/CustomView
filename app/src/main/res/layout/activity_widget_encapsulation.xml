@@ -22,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.nn.customview.view.CustomLinearLayout
+        android:id="@+id/custom_lin_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -43,4 +44,55 @@
             android:text="textview4" />
 
     </com.nn.customview.view.CustomLinearLayout>
+
+    <com.nn.customview.view.FlowLayout
+        android:id="@+id/flow_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/custom_lin_layout">
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="演员 " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="方圆几里 " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="身骑白马 " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="你还要我怎样 " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="红色高跟鞋 " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I'm your man " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="情书 " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="一辈子的孤单 " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="爱人呢 " />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="关于郑州的记忆 " />
+    </com.nn.customview.view.FlowLayout>
 </android.support.constraint.ConstraintLayout>

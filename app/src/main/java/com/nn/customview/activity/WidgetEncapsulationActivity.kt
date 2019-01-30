@@ -14,5 +14,7 @@ class WidgetEncapsulationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_widget_encapsulation)
     }
 
-
 }
+
+
+

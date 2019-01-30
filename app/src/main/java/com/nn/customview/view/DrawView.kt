@@ -78,6 +78,7 @@ class DrawView @JvmOverloads constructor(
         paint.color=Color.BLUE
         canvas?.drawText("Hello",100f,700f,paint)
 
+        
     }
 
 }

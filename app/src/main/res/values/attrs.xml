@@ -29,4 +29,5 @@
         </attr>
         <attr name="textColorCustom" format="reference" />
     </declare-styleable>
+
 </resources>
