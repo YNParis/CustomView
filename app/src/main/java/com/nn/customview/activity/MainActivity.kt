@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun toAnimation(v: View) {
-        startActivity<AnimationAvtivity>()
+        startActivity<AnimationActivity>()
     }
 
 }
